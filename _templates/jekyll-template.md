@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Your Post Title Here
 date: {{date}}
 categories:
