@@ -16,3 +16,6 @@ vendor/
 
 # Ignore .obidian
 .obsidian/
+
+# Ignore template post
+_templates/

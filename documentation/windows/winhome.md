@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Windows"
-date: 2025-04-02 14:30:00 -0500
+date: 2025-04-02
 categories: [home]
 tags: [windows]
 author: Kunal Shenoi
@@ -11,7 +11,7 @@ author: Kunal Shenoi
 
 *Published on {{ page.date | date: "%B %d, %Y" }}*
 
-*Tags: {{ page.tags }}*
+*Tags: {{ page.tags | join: ", "  }}*
 
 ## Introduction
 

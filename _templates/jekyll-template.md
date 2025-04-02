@@ -1,12 +1,17 @@
 ---
 layout: post
-title: "Your Post Title Here"
-date: 2025-04-02 14:30:00 -0500
-categories: [category1, category2]
-tags: [tag1, tag2, tag3]
+title: Your Post Title Here
+date: {{date}}
+categories:
+  - category1
+  - category2
+tags:
+  - tag1
+  - tag2
+  - tag3
 author: Your Name
 image: /assets/images/featured-image.jpg
-description: "A brief description of your post that will appear in search engines and social media shares."
+description: A brief description of your post that will appear in search engines and social media shares.
 permalink: /custom-url-slug/
 published: true
 comments: true
