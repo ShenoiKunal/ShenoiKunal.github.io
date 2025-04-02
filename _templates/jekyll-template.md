@@ -15,6 +15,7 @@ description: A brief description of your post that will appear in search engines
 permalink: /custom-url-slug/
 published: true
 comments: true
+nav_exclude: true
 ---
 
 # {{ page.title }}
