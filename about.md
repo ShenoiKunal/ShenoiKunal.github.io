@@ -5,9 +5,7 @@ date: 2025-04-02 14:30:00 -0500
 categories: [category1, category2]
 tags: [tag1, tag2, tag3]
 author: Your Name
-image: /assets/images/featured-image.jpg
 description: "A brief description of your post that will appear in search engines and social media shares."
-#permalink: /custom-url-slug/
 published: true
 comments: true
 ---
@@ -99,5 +97,3 @@ Summarize your post and possibly include a call to action or questions to engage
 
 {% include related-posts.html %}
 
-<!-- Additional scripts or styles specific to this post -->
-<script src="{{ site.baseurl }}/assets/js/specific-script.js"></script>
