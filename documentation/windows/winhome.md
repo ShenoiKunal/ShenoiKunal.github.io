@@ -19,8 +19,11 @@ Primary landing page for Windows-related articles
 
 ## Articles
 
-| Title | Tags  | Date  |
-|-------|-------|-------|
-| data1 | data2 | data3 |
-
+| Title | Description | Tags |
+|-------|-------------|------|
+{% for page in site.pages %}
+{% if page.parent == page.title or page.parent == "YourParentPageTitle" %}
+| [{{ page.title }}]({{ page.url | relative_url }}) | {{ page.description | default: "No description" }} | {% if page.tags %}{{ page.tags | join: ", " }}{% else %}No tags{% endif %} |
+{% endif %}
+{% endfor %}
 
