@@ -11,7 +11,8 @@ description: "Overview of Intel CPU Generations, Core counts, and Sockets"
 # {{ page.title }}
 
 *Published on {{ page.date | date: "%B %d, %Y" }}*
-*Tags {{ page.tags }}*
+
+*Tags: {{ page.tags }}*
 
 ## Introduction
 
