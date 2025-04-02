@@ -86,14 +86,3 @@ You can use Jekyll's Liquid templating:
 ## Conclusion
 
 Summarize your post and possibly include a call to action or questions to engage readers.
-
----
-
-{% include author-bio.html %}
-
-{% if page.comments %}
-  {% include comments.html %}
-{% endif %}
-
-{% include related-posts.html %}
-
