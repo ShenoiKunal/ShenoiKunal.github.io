@@ -12,6 +12,8 @@ description: "Collection of Windows Versions and dates"
 
 *unverified*
 
+*Tags: {{ page.tags }}*
+
 ## Early Versions
 
 | Version | Release Date | End of Support |
