@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Windows Home Page"
+title: "Windows"
 date: 2025-04-02 14:30:00 -0500
 categories: [home]
 tags: [windows]
 author: Kunal Shenoi
-description: "Overview of Intel CPU Generations, Core counts, and Sockets"
 ---
 
 # {{ page.title }}
