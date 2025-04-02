@@ -22,7 +22,7 @@ Primary landing page for Windows-related articles
 | Title | Description | Tags |
 |-------|-------------|------|
 {% for page in site.pages %}
-{% if page.parent == page.title or page.parent == "YourParentPageTitle" %}
+{% if page.parent == page.title %}
 | [{{ page.title }}]({{ page.url | relative_url }}) | {{ page.description | default: "No description" }} | {% if page.tags %}{{ page.tags | join: ", " }}{% else %}No tags{% endif %} |
 {% endif %}
 {% endfor %}
