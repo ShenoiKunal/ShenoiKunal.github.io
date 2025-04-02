@@ -12,6 +12,7 @@ author: Kunal Shenoi
 *unverified*
 
 ## Early Versions
+
 | Version | Release Date | End of Support |
 |---------|-------------|----------------|
 | Windows 1.0 | November 20, 1985 | December 31, 2001 |
@@ -25,6 +26,7 @@ author: Kunal Shenoi
 | Windows NT 3.51 | May 30, 1995 | December 31, 2001 |
 
 ## Windows 9x Series
+
 | Version | Release Date | End of Support |
 |---------|-------------|----------------|
 | Windows 95 | August 24, 1995 | December 31, 2001 |
@@ -33,6 +35,7 @@ author: Kunal Shenoi
 | Windows Millennium Edition (Me) | September 14, 2000 | July 11, 2006 |
 
 ## Windows NT Family
+
 | Version | Release Date | End of Support |
 |---------|-------------|----------------|
 | Windows NT 4.0 | July 29, 1996 | June 30, 2004 |
@@ -48,19 +51,21 @@ author: Kunal Shenoi
 | Windows 11 | October 5, 2021 | Current |
 
 ## Windows Server Editions
-| Version | Release Date | End of Support |
-|---------|-------------|----------------|
-| Windows Server 2003 | April 24, 2003 | July 14, 2015 |
-| Windows Server 2003 R2 | December 6, 2005 | July 14, 2015 |
-| Windows Server 2008 | February 27, 2008 | January 14, 2020 |
-| Windows Server 2008 R2 | October 22, 2009 | January 14, 2020 |
-| Windows Server 2012 | September 4, 2012 | October 10, 2023 |
-| Windows Server 2012 R2 | October 18, 2013 | October 10, 2023 |
-| Windows Server 2016 | October 12, 2016 | January 12, 2027 |
-| Windows Server 2019 | October 2, 2018 | January 9, 2029 |
-| Windows Server 2022 | August 18, 2021 | October 14, 2031 |
+
+| Version                | Release Date      | End of Support   |
+| ---------------------- | ----------------- | ---------------- |
+| Windows Server 2003    | April 24, 2003    | July 14, 2015    |
+| Windows Server 2003 R2 | December 6, 2005  | July 14, 2015    |
+| Windows Server 2008    | February 27, 2008 | January 14, 2020 |
+| Windows Server 2008 R2 | October 22, 2009  | January 14, 2020 |
+| Windows Server 2012    | September 4, 2012 | October 10, 2023 |
+| Windows Server 2012 R2 | October 18, 2013  | October 10, 2023 |
+| Windows Server 2016    | October 12, 2016  | January 12, 2027 |
+| Windows Server 2019    | October 2, 2018   | January 9, 2029  |
+| Windows Server 2022    | August 18, 2021   | October 14, 2031 |
 
 ## Windows Mobile/Phone/CE
+
 | Version | Release Date | End of Support |
 |---------|-------------|----------------|
 | Windows CE 1.0 | November 16, 1996 | December 31, 2001 |
@@ -79,6 +84,7 @@ author: Kunal Shenoi
 | Windows 10 Mobile | November 20, 2015 | January 14, 2020 |
 
 ## Special Editions
+
 | Version | Release Date | Notes |
 |---------|-------------|-------|
 | Windows RT | October 26, 2012 | ARM-based version for tablets |
@@ -87,6 +93,7 @@ author: Kunal Shenoi
 | Windows 10 IoT | July 29, 2015 | For Internet of Things devices |
 
 ## Major Windows 10 Updates
+
 | Version | Name | Release Date |
 |---------|------|-------------|
 | 1507 | Initial Release | July 29, 2015 |
@@ -106,6 +113,7 @@ author: Kunal Shenoi
 | 23H2 | 2023 Update | October 31, 2023 |
 
 ## Major Windows 11 Updates
+
 | Version | Name | Release Date |
 |---------|------|-------------|
 | 21H2 | Initial Release | October 5, 2021 |
