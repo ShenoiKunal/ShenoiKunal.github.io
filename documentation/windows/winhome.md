@@ -20,9 +20,5 @@ Primary landing page for Windows-related articles
 ## Articles
 
 | Title | Description | Tags |
-|-------|-------------|------|
-{% for page in site.pages %}
-{% if page.parent == "Windows" %}
-| [{{ page.title }}]({{ page.url }}) | {{ page.description | default: "No description" }} | {% if page.tags %}{{ page.tags | join: ", " }}{% else %}No tags{% endif %} |
-{% endif %}
-{% endfor %}
+|-------|-------------|------|{% for page in site.pages %}{% if page.parent == "Windows" %}
+| [{{ page.title }}]({{ page.url }}) | {{ page.description | default: "No description" }} | {% if page.tags %}{{ page.tags | join: ", " }}{% else %}No tags{% endif %} |{% endif %}{% endfor %}
