@@ -12,7 +12,7 @@ description: "Collection of Windows Versions and dates"
 
 *unverified*
 
-*Tags: {{ page.tags }}*
+*Tags: {{ page.tags | join: ", " }}*
 
 ## Early Versions
 
