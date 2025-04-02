@@ -23,6 +23,6 @@ Primary landing page for Windows-related articles
 |-------|-------------|------|
 {% for page in site.pages %}
 {% if page.parent == page.title %}
-| [{{ page.title }}]({{ site.baseurl }}{{ page.url }}) | {{ page.description | default: "No description" }} | {% if page.tags %}{{ page.tags | join: ", " }}{% else %}No tags{% endif %} |
+| [{{ page.title }}]({{ page.url }}) | {{ page.description | default: "No description" }} | {% if page.tags %}{{ page.tags | join: ", " }}{% else %}No tags{% endif %} |
 {% endif %}
 {% endfor %}

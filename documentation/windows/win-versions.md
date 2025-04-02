@@ -4,8 +4,9 @@ parent: Windows
 layout: post
 date: 2025-04-02
 categories: [article]
-tags: [windows]
+tags: [windows, versions, os]
 author: Kunal Shenoi
+description: "Collection of Windows Versions and dates"
 ---
 # Microsoft Windows Versions
 
