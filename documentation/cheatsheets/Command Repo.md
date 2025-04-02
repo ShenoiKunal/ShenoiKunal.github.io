@@ -30,7 +30,7 @@ description: Collection of commands I frequently use
 ### 2. Restart to UEFI BIOS
 
 - `shutdown /r /fw /t 0`
-	- #reboottobios
+
 ---
 
 ## **CMD Commands**
