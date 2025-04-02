@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Post Title Here"
+title: "Template"
 date: 2025-04-02 14:30:00 -0500
 categories: [category1, category2]
 tags: [tag1, tag2, tag3]
