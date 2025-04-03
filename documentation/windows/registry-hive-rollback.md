@@ -40,7 +40,7 @@ Many issues in Windows can be caused by errors in the registry. A registry hive 
 8. Verify the existence of `DEFAULT`, `SAM`, `SECURITY`, `SOFTWARE`, and `SYSTEM`
 9. Rename current registry hives to `.old` or `.bak`
 	1. `cd C:\Windows\System32\config`
-	2. `ren {FILE} {FILE}.old` (`ren DEFAULT DEFAULT.old)
+	2. `ren {FILE} {FILE}.old` (Example: `ren DEFAULT DEFAULT.old`)
 10. Copy the shadow registry hives to the current registry hive folder
 	1. `copy C:\Shadow\windows\system32\config\default C:\Windows\System32\config`
 	2. Repeat for `SAM`, `SECURITY`, `SOFTWARE`, and `SYSTEM`
