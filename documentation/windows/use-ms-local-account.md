@@ -10,7 +10,7 @@ tags:
   - ms
   - microsoft
 author: Kunal Shenoi
-description: Rollback registry hives to resolve OS corruption
+description: Bypass requirement to sign in with a Microsoft Account during Win 11 setup
 ---
 
 
