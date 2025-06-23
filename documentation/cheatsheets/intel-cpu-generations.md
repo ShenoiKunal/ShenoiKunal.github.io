@@ -2,14 +2,14 @@
 layout: post
 title: Intel CPU Comparison Chart
 date: 2025-06-23
-parent: Windows
+parent: Cheatsheets
 tags:
- - intel
- - cpu
- - processors
- - specifications
- - hardware
- - comparison
+  - intel
+  - cpu
+  - processors
+  - specifications
+  - hardware
+  - comparison
 author: Kunal Shenoi
 description: Comprehensive comparison table of Intel desktop processors with specifications and features
 ---
@@ -31,6 +31,7 @@ Sources:
 *Data collected: 6/23/2025*
 
 ## Intel Desktop Processors Comparison
+*Scroll left and right, will get around to a better implementation at some point*
 
 |Processor Number|Intel Product Brand|Generation|Performance Tier|Year Launched|# of Cores|# of P-cores|# of E-cores|# of Threads|Max Turbo Frequency (GHz)|Performance-core Base Frequency (GHz)|Efficient-core Base Frequency (GHz)|Processor Base Frequency (GHz)|Cache (MB)|Processor Base Power (previously Thermal Design Power (TDP))  (W)|Max Memory Size (dependent on memory type) GB|Memory Types (MT/s)                       |Max # of PCI Express Lanes|Supported Socket|Intel® Processor Graphics|Graphics Max Dynamic Frequency (GHz)|Intel® Turbo Boost Max Technology 3.0|Intel® vPro™ Platform Eligibility|Max Resolution for HDMI,  Max Resolution for DP,  Max Resolution for (eDP - Integrated Flat Panel)|
 |----------------|-------------------|----------|----------------|-------------|----------|------------|------------|------------|-------------------------|-------------------------------------|-----------------------------------|------------------------------|----------|-----------------------------------------------------------------|---------------------------------------------|------------------------------------------|--------------------------|----------------|-------------------------|------------------------------------|-------------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------|
@@ -340,17 +341,3 @@ Sources:
 |i7-4770R        |Intel® Core™       |4th       |i7              |2013         |4         |N/A         |N/A         |8           |3.90                     |N/A                                  |N/A                                |3.20                          |6         |65                                                               |32                                           |DDR3 & DDR3L 1333/1600                    |16                        |FCBGA1364       |HD 5200                  |1.30                                |No                                   |No                               |HDMI: 3840 x 2160 @ 30Hz DP: 3840 x 2160 @ 60Hz                                                   |
 |i7-4770S        |Intel® Core™       |4th       |i7              |2013         |4         |N/A         |N/A         |8           |3.90                     |N/A                                  |N/A                                |3.10                          |8         |65                                                               |32                                           |DDR3-1333/1600,  DDR3L-1333/1600          |16                        |LGA1150         |HD 4600                  |1.20                                |No                                   |Yes                              |HDMI: 4096 x 2304 @ 24Hz DP: 3840 x 2160 @ 60Hz eDP: 3840x 2160 @ 60Hz                            |
 |i7-4770T        |Intel® Core™       |4th       |i7              |2013         |4         |N/A         |N/A         |8           |3.70                     |N/A                                  |N/A                                |2.50                          |8         |45                                                               |32                                           |DDR3-1333/1600,  DDR3L-1333/1600          |16                        |LGA1150         |HD 4600                  |1.20                                |No                                   |Yes                              |HDMI: 4096 x 2304 @ 24Hz DP: 3840 x 2160 @ 60Hz eDP: 3840x 2160 @ 60Hz                            |
-
-
-## Notes
-
-- Data sourced from Intel's official processor comparison charts
-- Table includes basic features and specifications for Intel desktop processors
-- For detailed side-by-side comparisons, refer to Intel's ARK database (ark.intel.com)
-- Specifications may vary by manufacturer implementation
-- Always verify processor compatibility with target system requirements
-
-## References
-
-- Intel Desktop Processors Comparison Chart
-- Intel Support Article 000005505
