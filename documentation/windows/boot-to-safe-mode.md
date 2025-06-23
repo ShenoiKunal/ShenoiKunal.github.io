@@ -1,15 +1,15 @@
 ---
 layout: post
-title: BitLocker Drive Access via WinPE
+title: Get BitLocked OS to Boot to Safe Mode
 date: 2025-06-23
 parent: Windows
 tags:
- - windows
- - bitlocker
- - winpe
- - encryption
- - boot
- - repair
+  - windows
+  - bitlocker
+  - winpe
+  - encryption
+  - boot
+  - repair
 author: Kunal Shenoi
 description: Access BitLocker encrypted drives using WinPE boot environment for system recovery and maintenance
 ---
