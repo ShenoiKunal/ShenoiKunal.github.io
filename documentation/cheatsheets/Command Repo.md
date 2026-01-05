@@ -174,9 +174,14 @@ description: Collection of commands I frequently use
 ```
 
 ---
+
 ## **Bash Commands**
 
 ---
+
+### Reboot to UEFI Setup
+`systemctl reboot --firmware-setup`
+
 ### Remove all empty directories with "behind" in their name
 - To remove all empty directories with "behind" in their name, you can use the `find` command again but with different options suited for directories.
 - `find . -type d -empty -name '*behind*' -exec rmdir {} +`
