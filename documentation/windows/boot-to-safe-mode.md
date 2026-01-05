@@ -36,7 +36,7 @@ BitLocker drives only lock the OS volume, leaving the system partition accessibl
 2. **Assign Drive Letter to System Partition**
   - Open Command Prompt in WinPE
   - Use `diskpart` to identify and assign a drive letter to the system partition
-    ```
+    ```bat
     diskpart
     list disk
     sel disk {num} # probably 0, select the drive with the EFI partition used for Windows
@@ -50,7 +50,7 @@ BitLocker drives only lock the OS volume, leaving the system partition accessibl
 
 3. **Navigate to Boot Configuration**
   - Navigate to the boot configuration directory:
-    ```
+    ```bat
     cd {letter}:\EFI\Microsoft\Boot
     ```
   - You can alternatively skip navigating to this directory by using the complete path for the bcdedit command
@@ -60,7 +60,7 @@ BitLocker drives only lock the OS volume, leaving the system partition accessibl
 
 4. **Modify Boot Configuration**
   - Execute the bcdedit command to enable network safe boot:
-    ```
+    ```bat
     bcdedit /store BCD /set {default} safeboot network
     ```
 
@@ -73,10 +73,3 @@ BitLocker drives only lock the OS volume, leaving the system partition accessibl
 
 - Always ensure proper backup procedures before modifying boot configuration
 - To disable safe boot mode, use: `bcdedit /deletevalue {default} safeboot`
-
-## Use Cases
-
-- System recovery when BitLocker is preventing normal boot
-- Network troubleshooting in encrypted environments
-- Remote assistance scenarios requiring network access
-- Maintenance tasks requiring safe mode with networking
